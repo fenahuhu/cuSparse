@@ -36,7 +36,7 @@ User Guide
  	```./sptrsv -mtx [A.mtx]```
     * ```[A.mtx]```: It will load input matrix from the given path
     
-* ##### Output
+#### Output
 
 The ./sptrsv will run tests based on imput matrix with options specified by users (in the common file). The exection time will be reported. The correctness of the output of SpTRSV are verified by comparing their results with the x_ref.
     
