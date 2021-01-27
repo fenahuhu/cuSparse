@@ -8,7 +8,7 @@ VALUE_TYPE = double
 NVCC_FLAGS = -O3 -w -m64 -Xptxas -dlcm=cg -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70
 
 #ENVIRONMENT_PARAMETERS
-CUDA_INSTALL_PATH =
+CUDA_INSTALL_PATH = /usr/local/cuda-10.2
 
 #includes
 INCLUDES = -I$(CUDA_INSTALL_PATH)/include

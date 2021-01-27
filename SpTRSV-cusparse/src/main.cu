@@ -39,7 +39,7 @@ int main(int argc, char ** argv)
     VALUE_TYPE *cscValTR;
 
     int device_id = 0;
-    int rhs = 0;
+    int rhs = 1;
     int substitution = SUBSTITUTION_FORWARD;
 
     // "Usage: ``./sptrsv -mtx A.mtx'' for LX=B on device 0"

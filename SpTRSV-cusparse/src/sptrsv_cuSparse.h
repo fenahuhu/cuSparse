@@ -159,7 +159,8 @@ cusparseDestroy(handle);
     {
         ref += abs(x_ref[i]);
         res += abs(d_x[i] - x_ref[i]);
-          if (x_ref[i] != d_x[i]) printf ("[%i, %i] x_ref = %f, x = %f\n", i/rhs, i%rhs, x_ref[i], d_x[i]);
+        //  if (x_ref[i] != d_x[i]) 
+	printf ("[%i, %i] x_ref = %f, x = %f\n", i/rhs, i%rhs, x_ref[i], d_x[i]);
     }
     res = ref == 0 ? res : res / ref;
 
