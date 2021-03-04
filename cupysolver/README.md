@@ -1,6 +1,6 @@
 # Implement Solvers in Cupy
 
-Estimate different kinds of solvers supported by CUPY. The user-defined kernels is implemented based on [CapelliniSpTRSV](https://github.com/JiyaSu/CapelliniSpTRSV) 
+Estimate different kinds of solvers supported by CUPY. The user-defined kernel is implemented based on [CapelliniSpTRSV](https://github.com/JiyaSu/CapelliniSpTRSV) 
 
 Environment Requirements
 ==========
